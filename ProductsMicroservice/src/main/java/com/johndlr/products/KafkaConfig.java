@@ -3,7 +3,7 @@ package com.johndlr.products;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.johndlr.products.service.ProductCreatedEvent;
+import com.juandlr.core.ProductCreatedEvent;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.springframework.beans.factory.annotation.Value;

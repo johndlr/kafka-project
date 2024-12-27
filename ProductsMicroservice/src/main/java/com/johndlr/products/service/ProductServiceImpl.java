@@ -2,6 +2,7 @@ package com.johndlr.products.service;
 
 import java.util.UUID;
 
+import com.juandlr.core.ProductCreatedEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
