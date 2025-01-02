@@ -24,7 +24,8 @@ public class ProductServiceImpl implements ProductService {
 	@Override
 	public String createProduct(CreateProductRestModel productRestModel) throws Exception {
 		
-		String productId = UUID.randomUUID().toString();
+//		String productId = UUID.randomUUID().toString();
+		String productId = "123";
 		
 		// TODO: Persist Product Details into database table before publishing an Event
 		
